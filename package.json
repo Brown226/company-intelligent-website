@@ -1,0 +1,21 @@
+{
+  "name": "company-intelligent-website",
+  "version": "1.0.0",
+  "description": "公司智能化网站项目",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "analytics",
+    "company"
+  ],
+  "author": "",
+  "license": "MIT"
+}
